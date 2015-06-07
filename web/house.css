@@ -1,0 +1,17 @@
+/* CSS Document */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #CCC;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-image: url(images/nav-active.png);
+    background-color: #000;
+    color: #FFF;
+    padding: 10px;
+}
