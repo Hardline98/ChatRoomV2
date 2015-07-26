@@ -4,14 +4,175 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: #CCC;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Popup Styling */
+div#overlay {
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+}
+
+#box {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    background: #FFFFFF;
+    color: #000000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.popupHead {
+    width: 100%;
+    background-image: url(images/modal-noise.png);
+    height: 10%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.popupContent {
+    padding: 5px 10px 5px 10px;
+}
+
+.popupFormLabel {
+    display: inline;
+    width: 30%;
+}
+
+.popupFormElementWrap {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+.popupFormField {
+    width: 65%;
+}
+/* End Popup Styling */
+.spacer {
+    padding-bottom: 80px;
 }
 
 #header {
     width: 100%;
     position: fixed;
     height: 50px;
-    background-image: url(images/nav-active.png);
+    background-image: url(images/header-noise.png);
     background-color: #000;
     color: #FFF;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.headerWrapper {
+    display: inline;
+    padding-left: 10px;
+    left: 100%;
+}
+
+.label {
+    padding: 5px;
+    display: inline;
+}
+
+.inputField {
+    height: 30px;
+	width: 40%;
+	margin-bottom: 1%;
+	font-size: 140%;
+	padding-left: 5px;
+	margin-left: 8%;
+	border: 1px solid #000;
+}
+
+.button {
+    display: inline;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #5CADFF;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.button:active {
+    padding: 9px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #539CE6;
+    margin: 11px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.wide-table {
+    width: 100%;
+}
+
+.wide-table-field {
+    width: 30%;
+}
+
+.wide-table-field-2 {
+    width: 100%;
+}
+
+.chatContainer {
+    width: 70%;
+    height: 50%;
+    border: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    min-height: 500px;
+    margin-top: 10px;
+}
+
+.chatShow {
+    clear: both;
+    float: left;
+    max-width: 1071px;
+    overflow: auto;
+    min-height: 500px;
+}
+
+.userList {
+    display: inline;
+    float: right;
+    padding: 5px;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    background-image: url(images/user-noise.png);
+    min-height: 500px;
+    color: #FFF;
+    max-height: 500px;
+    min-width: 250px;
+    overflow-y: auto;
+    margin-left: 1px;
 }
