@@ -12,6 +12,24 @@ session_start();
     <link type="text/css" rel="stylesheet" href="house.css" />
 </head>
 <body>
+<div id="overlay">&nbsp;</div>
+<div id="box">
+    <div class="popupHead">
+        Sign Up!
+    </div>
+    <div class="popupContent">
+        <table class="wide-table">
+            <tr class="popupFormElementWrap">
+                <td class="wide-table-field"><span class="popupFormLabel">Username: </span></td>
+                <td class="wide-table-field-2"><input class="popupFormField" type="text" id="popupUsername" /></td>
+            </tr>
+            <tr class="popupFormElementWrap">
+                <td class="wide-table-field"><span class="popupFormLabel">Password: </span></td>
+                <td class="wide-table-field-2"><input class="popupFormField" type="text" id="popupPassword" /></td>
+            </tr>
+        </table>
+    </div>
+</div>
 
 <div id="header">
     <div class="headerWrapper">
@@ -78,24 +96,6 @@ session_start();
         <div class="chatInputContainer">
 
         </div>
-    </div>
-</div>
-<div id="overlay">&nbsp;</div>
-<div id="box">
-    <div class="popupHead">
-        Sign Up!
-    </div>
-    <div class="popupContent">
-        <table class="wide-table">
-            <tr class="popupFormElementWrap">
-                <td class="wide-table-field"><span class="popupFormLabel">Username: </span></td>
-                <td class="wide-table-field-2"><input class="popupFormField" type="text" id="popupUsername" /></td>
-            </tr>
-            <tr class="popupFormElementWrap">
-                <td class="wide-table-field"><span class="popupFormLabel">Password: </span></td>
-                <td class="wide-table-field-2"><input class="popupFormField" type="text" id="popupPassword" /></td>
-            </tr>
-        </table>
     </div>
 </div>
 </body>
