@@ -42,59 +42,51 @@ session_start();
     </div>
 </div>
 <div class="spacer"></div>
-    <div class="chatContainer">
-
-        <div class="chatShow">
-            <div class="ImAContainer">
-                ChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShowChatShow
+    <div class="chatWrapper">
+        <div class="chatContainer">
+            <div class="chatShow">
+                <div class="ImAContainer">
+                    <b><span style="color:red">Hardline_98</span> (127.0.0.1):</b> How are you doing this fine morn lalalal lelelel how do you do?
+                    How are you doing this fine morn lalalal lelelel how do you do?
+                    How are you doing this fine morn lalalal lelelel how do you do?<br><br>
+                </div>
+            </div>
+            <div class="userList">
+                <div class="userList-content">
+                    <u>Users Here</u>:<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                    - Hardline<br>
+                </div>
             </div>
         </div>
-        <div class="userList">
-            <div class="userList-content">
-                <u>Users Here: </u><br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-                - Hardline<br>
-            </div>
-        </div>
-        <div class="chatInputContainer">
-
+        <div class="chatBottom">
+            <div class="box" id="timeBox">HH:MM:SS DD:MM:YYYY</div>
+            <input type="text" id="msgField" />
+            <span class="sendBtn">Send</span>
         </div>
     </div>
 </div>

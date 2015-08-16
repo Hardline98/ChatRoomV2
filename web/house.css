@@ -5,6 +5,7 @@ body {
     margin: 0px;
     background-color: #CCC;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 12pt;
 }
 
 a {
@@ -17,7 +18,7 @@ div#overlay {
     display: none;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,.75);
     position: absolute;
     z-index: 100;
 }
@@ -132,6 +133,66 @@ div#overlay {
     margin-bottom: 14px;
 }
 
+.chatWrapper {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chatBottom {
+    width: 80.6%;
+    background-color: #FFF;
+    height: auto;
+    border: 1px solid #000;
+    border-top: none;
+    vertical-align: middle;
+}
+
+.chatBottom > input {
+    width: 78.2%;
+    margin: 3px auto 3px 0px;
+    height: 15px;
+    border: 1px solid #000;
+    outline: none;
+    padding-left: 2px;
+}
+
+.sendBtn {
+    display: inline;
+    cursor: pointer;
+    padding-bottom: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5CADFF;
+    margin-left: 1px;
+    color: #FFF;
+    height: auto;
+    font-size: 10pt;
+    border: 1px solid #000;
+}
+
+.sendBtn:active {
+    background-color: #539CE6;
+    color: #FFF;
+    margin: 1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.box {
+    display: inline;
+    margin-left: 3px;
+    padding-bottom: 1px;
+    height: 15px;
+    margin: 3px 0px 3px 4px;
+    border: 1px solid #000;
+    font-size: 10pt;
+}
+
 .wide-table {
     width: 100%;
 }
@@ -145,11 +206,9 @@ div#overlay {
 }
 
 .chatContainer {
-    width: 70%;
+    width: 100%;
     height: 50%;
     border: 1px solid #000;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #FFF;
     min-height: 500px;
     margin-top: 10px;
@@ -158,9 +217,22 @@ div#overlay {
 .chatShow {
     clear: both;
     float: left;
-    max-width: 1071px;
-    overflow: auto;
-    min-height: 500px;
+    max-width: 1055px;
+    min-height: 493px;
+    max-height: 493px;
+    padding: 5px;
+    padding-top: 2px;
+    overflow-y: auto;
+    padding-right: 5px;
+}
+
+.ImAContainer {
+    width: 100%;
+    max-height: 497px;
+}
+
+.message {
+    padding-bottom: 5px;
 }
 
 .userList {
